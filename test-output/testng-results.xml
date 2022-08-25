@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-08-25T16:24:24 IST" name="Default suite" finished-at="2022-08-25T16:24:27 IST" duration-ms="2713">
+    <groups>
+      <group name="test-group-post">
+        <method signature="Test_get.test_post()[pri:2, instance:testcases.Test_get@73e9cf30]" name="test_post" class="testcases.Test_get"/>
+      </group> <!-- test-group-post -->
+      <group name="test-group-get">
+        <method signature="Test_get.test_getAll(java.lang.String)[pri:1, instance:testcases.Test_get@73e9cf30]" name="test_getAll" class="testcases.Test_get"/>
+        <method signature="Test_get.test_givenUser()[pri:3, instance:testcases.Test_get@73e9cf30]" name="test_givenUser" class="testcases.Test_get"/>
+      </group> <!-- test-group-get -->
+    </groups>
+    <test started-at="2022-08-25T16:24:24 IST" name="Default test" finished-at="2022-08-25T16:24:27 IST" duration-ms="2713">
+      <class name="testcases.Test_get">
+        <test-method is-config="true" signature="beforeSuite(java.lang.String)[pri:0, instance:testcases.Test_get@73e9cf30]" started-at="2022-08-25T16:24:24 IST" name="beforeSuite" finished-at="2022-08-25T16:24:24 IST" duration-ms="27" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[suite param]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method is-config="true" signature="beforeTest(java.lang.String)[pri:0, instance:testcases.Test_get@73e9cf30]" started-at="2022-08-25T16:24:24 IST" name="beforeTest" finished-at="2022-08-25T16:24:24 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[suite param]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.String,java.lang.String)[pri:0, instance:testcases.Test_get@73e9cf30]" started-at="2022-08-25T16:24:24 IST" name="beforeMethod" finished-at="2022-08-25T16:24:24 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[suite param]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[tets param]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="test_getAll(java.lang.String)[pri:1, instance:testcases.Test_get@73e9cf30]" started-at="2022-08-25T16:24:24 IST" name="test_getAll" description="To get the list of all users" finished-at="2022-08-25T16:24:25 IST" duration-ms="1339" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[suite param]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_getAll -->
+        <test-method is-config="true" signature="afterMethod(java.lang.String,java.lang.String)[pri:0, instance:testcases.Test_get@73e9cf30]" started-at="2022-08-25T16:24:25 IST" name="afterMethod" finished-at="2022-08-25T16:24:25 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[suite param]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[tets param]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.String,java.lang.String)[pri:0, instance:testcases.Test_get@73e9cf30]" started-at="2022-08-25T16:24:25 IST" name="beforeMethod" finished-at="2022-08-25T16:24:25 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[suite param]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[tets param]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="test_post()[pri:2, instance:testcases.Test_get@73e9cf30]" started-at="2022-08-25T16:24:25 IST" name="test_post" description="To create a new user and checking the response" finished-at="2022-08-25T16:24:26 IST" duration-ms="1129" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_post -->
+        <test-method is-config="true" signature="afterMethod(java.lang.String,java.lang.String)[pri:0, instance:testcases.Test_get@73e9cf30]" started-at="2022-08-25T16:24:26 IST" name="afterMethod" finished-at="2022-08-25T16:24:26 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[suite param]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[tets param]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.String,java.lang.String)[pri:0, instance:testcases.Test_get@73e9cf30]" started-at="2022-08-25T16:24:26 IST" name="beforeMethod" finished-at="2022-08-25T16:24:26 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[suite param]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[tets param]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="test_givenUser()[pri:3, instance:testcases.Test_get@73e9cf30]" started-at="2022-08-25T16:24:26 IST" name="test_givenUser" description="To get a specific user and get the response" finished-at="2022-08-25T16:24:27 IST" duration-ms="193" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_givenUser -->
+        <test-method is-config="true" signature="afterMethod(java.lang.String,java.lang.String)[pri:0, instance:testcases.Test_get@73e9cf30]" started-at="2022-08-25T16:24:27 IST" name="afterMethod" finished-at="2022-08-25T16:24:27 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[suite param]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[tets param]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterTest(java.lang.String)[pri:0, instance:testcases.Test_get@73e9cf30]" started-at="2022-08-25T16:24:27 IST" name="afterTest" finished-at="2022-08-25T16:24:27 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[suite param]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method is-config="true" signature="afterSuite(java.lang.String)[pri:0, instance:testcases.Test_get@73e9cf30]" started-at="2022-08-25T16:24:27 IST" name="afterSuite" finished-at="2022-08-25T16:24:27 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[suite param]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- testcases.Test_get -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

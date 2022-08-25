@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Parameter test Suite" verbose="1" parallel="methods" thread-count="2">
+	
+	<parameter name="suite-param" value="suite level parameter" />
+	<test name="Parameter Test one" >
+		<classes>
+			<class name="TestngProject.src.test.java.Test_get">
+				<methods>
+					<include name="beforeSuite" />
+				     <include name="afterSuite" />
+					<include name="beforeTest" />
+					<include name="afterTest" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	
+	<test name="Parameter Test multiple">
+		
+		<parameter name="suite-param" value="overiding suite parameter" />
+		
+		<parameter name="test-param" value="test level parameter" />
+		<classes>
+			<class name="TestngProject.src.test.java.Test_get">
+				<methods>
+					<include name="beforeClass" />
+					<include name="afterClass" />
+					<include name="beforeMethod" />
+					<include name="afterMethod" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	
+	<test name="Group Test get">
+    <groups>
+      <run>
+        <include name="test-group-get" />
+      </run>
+    </groups>
+    <classes>
+      <class name="TestngProject.src.test.java.testcases.Test_get" />
+    </classes>
+  </test>
+  <test name="Group Test post">
+    <groups>
+      <run>
+        <include name="test-group-post" />
+      </run>
+    </groups>
+    <classes>
+      <class name="TestngProject.src.test.java.Test_get" />
+     </classes>
+  </test>
+</suite>
